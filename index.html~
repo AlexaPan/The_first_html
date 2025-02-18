@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир Машин</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<p class="first">Привет, мир!</p>
+<hr>
+    <header>
+        <h1>Добро пожаловать в мир машин!</h1>
+        <nav>
+            <ul>
+                <li><a href="#sedans">Седаны</a></li>
+                <li><a href="#suvs">Внедорожники</a></li>
+                <li><a href="#trucks">Грузовики</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="sedans">
+            <h2>Седаны</h2>
+            <p>Седаны — это автомобили с отдельным багажником. Они предлагают комфорт и экономию топлива.</p>
+
+        </section>
+        <img src="audi.jpg" alt="Седан" width="300" height="200">
+        <section id="suvs">
+            <h2>Внедорожники</h2>
+            <p>Внедорожники (SUV) отличаются высоким клиренсом и возможностью передвижения по сложным маршрутам.</p>
+        </section>
+
+        <section id="trucks">
+            <h2>Грузовики</h2>
+            <p>Грузовики предназначены для перевозки больших грузов и могут быть как легкими, так и тяжелыми.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Мир Машин. Все права защищены.</p>
+    </footer>
 </body>
 </html>
